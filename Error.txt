@@ -1,0 +1,33 @@
+streamlit.errors.StreamlitDuplicateElementId: There are multiple `button` elements with the same auto-generated ID. When this element is created, it is assigned an internal ID based on the element type and provided parameters. Multiple elements with the same type and parameters will cause this error.
+
+To fix this error, please pass a unique `key` argument to the `button` element.
+
+File "C:\ai-agent\2.Playground\[PG]_Lab4\ADB6.py", line 1187, in <module>
+    main()
+    ~~~~^^
+File "C:\ai-agent\2.Playground\[PG]_Lab4\ADB6.py", line 941, in main
+    if st.sidebar.button("분석 시작", type="primary"):
+       ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\streamlit\runtime\metrics_util.py", line 443, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\streamlit\elements\widgets\button.py", line 268, in button
+    return self.dg._button(
+           ~~~~~~~~~~~~~~~^
+        label,
+        ^^^^^^
+    ...<10 lines>...
+        width=width,
+        ^^^^^^^^^^^^
+    )
+    ^
+File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\streamlit\elements\widgets\button.py", line 1123, in _button
+    element_id = compute_and_register_element_id(
+        "button",
+    ...<9 lines>...
+        width=width,
+    )
+File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\streamlit\elements\lib\utils.py", line 274, in compute_and_register_element_id
+    _register_element_id(ctx, element_type_for_error, element_id)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+File "C:\Users\USER\AppData\Local\Programs\Python\Python313\Lib\site-packages\streamlit\elements\lib\utils.py", line 148, in _register_element_id
+    raise StreamlitDuplicateElementId(element_type)

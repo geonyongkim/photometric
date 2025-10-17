@@ -1,0 +1,199 @@
+Version= LMT LIMES 2000 ASCII File Version Limes 25.0619.1318
+
+[BeginSample]
+Photometry= BBeta
+TestName= JW1 PE HPV DOM HL LED HIGH(OPT ASSY-LED)(LINE 1) RH#2 2025-09-02
+TestReport= JO WON JIN
+TestDate= 2025-09-03 오전 4:10:23 
+TestOperator= SL Corp.(LMT #01 GO H-1300)
+Nlamps= 1
+NBulbs= 1
+LampActive= 1
+TestHeadnr= 1
+Testfactor= 1
+TestDistance= 25 m
+TestUnit= cd
+UseHVBurn= 1
+HBurn= 0 °
+VBurn= 0 °
+CilFactor= 0
+CCTz=  100  mm
+OptionGraphic= LMT Blue-gray
+OptionGrid= LMT Short
+[EndSample]
+
+[BeginLamp]
+LampName= LED
+LampRefID= 901083692
+LampDc= DC
+LampNLamps= 1
+LampNumber1= PRODUCT
+LampLampName1= LED
+LampVoltage1= 13.2134 V
+LampSetCurrent1= 10 A
+LampSetVoltage1= 13.2 V
+LampCorrectFlux1= OFF
+LampLifeTime1= 360000 h
+LampBurninPeriod1= 7230 s
+LampTemperature1= 25 %C
+LampBurninTolerance1= 3 %
+LampBurninTolTime1= 960 s
+LampCorrectFlux2= OFF
+LampLifeTime2= 360000 h
+LampBurninPeriod2= 7230 s
+LampTemperature2= 25 %C
+LampBurninTolerance2= 3 %
+LampBurninTolTime2= 960 s
+[EndLamp]
+
+[BeginProgram]
+ProgramName= ADB DOM Driving Beam LHD LINE1
+ProgramRefID= 614367884
+ProgramDescription= ADB DOM Driving Beam LHD LINE1
+ProgramDate= 2025-09-02 오후 9:55:52 
+ProgramVersion= KATRI Regulation No.21-2
+ProgramLibName= KATRI
+ProgramGroupName= Headlamp
+ProgramLicenseWidth= 520
+ProgramLicenseHeight= 120
+ProgramCGamma= 0
+DefHead= 1
+ProgramExecutionTime= 8328
+ProgramNAverage= 1
+ProgramNLamps= 1
+ProgramNMeas= 1
+ProgramCd= 1
+ProgramDoStore= Store
+ProgramNok= NOK
+ProgramPhisoll1= 1250 lm
+ProgramHpc= 1
+ProgramNlines= 1
+
+{BeginProgramLine  1 }
+PCode= ScanH
+POrderNo= 1
+POrderNoPrinting= 1
+PName= LINE 1
+PText= LINE 1
+PMin= -
+PMax= 625
+PMaxValue= 625 Maximum
+PX1= -4.8 °
+PX2= -2 °
+PX3= 0.1 °
+PY1= 0.57 °
+PY2= 0.57 °
+PY3= 1 °
+PSave= 1
+PUnit= 1
+PReaimRadius= 0.25
+PSpeed= 5
+PRotSpeed= 7
+OrderNo= 1 cd
+HValue= -2 °
+VValue= 0.57 °
+Value= 322.9225 cd
+HminValue= -4.8 °
+VminValue= 0.57 °
+MinValue= 152.0635 cd
+{EndProgramLine}
+
+ProgramGrid= LMT Short
+ProgramExcludeStreetLightInfo= Exclude
+ProgramExcludeBUGRatings= Exclude
+[EndProgram]
+
+[BeginDistribution]
+Distribution=  1 
+
+{BeginResults  1 }
+Text= LINE 1
+Line= LINE 1
+N= 1
+Hoffset= 0
+Voffset= 0
+FromX= -4.8
+ToX= -2
+ByX= 0.1
+FromY= 0.57
+ToY= 0.57
+ByY= 1
+Unit= 1
+Z1= 29
+Z2= 1
+
+{BeginAngles}
+H= 
+-4.8
+-4.7
+-4.6
+-4.5
+-4.4
+-4.3
+-4.2
+-4.1
+-4
+-3.9
+-3.8
+-3.7
+-3.6
+-3.5
+-3.4
+-3.3
+-3.2
+-3.1
+-3
+-2.9
+-2.8
+-2.7
+-2.6
+-2.5
+-2.4
+-2.3
+-2.2
+-2.1
+-2
+V= 
+0.57
+{EndAngles}
+
+{BeginValuesInCd}
+152.0635
+154.7628
+157.7621
+160.9614
+164.1606
+167.8597
+171.3589
+175.2579
+179.257
+184.1558
+189.2546
+194.2534
+199.5521
+205.0508
+210.2495
+215.4483
+220.0472
+225.5459
+231.2445
+237.9762
+245.2411
+253.4392
+261.9371
+271.9847
+282.3322
+292.5298
+303.0273
+313.6247
+322.9225
+{EndValuesInCd}
+{EndResults}
+[EndDistribution]
+
+
+[BeginCutoff]
+CutoffDone= OFF
+[EndCutoff]
+
+[EndOfFile]

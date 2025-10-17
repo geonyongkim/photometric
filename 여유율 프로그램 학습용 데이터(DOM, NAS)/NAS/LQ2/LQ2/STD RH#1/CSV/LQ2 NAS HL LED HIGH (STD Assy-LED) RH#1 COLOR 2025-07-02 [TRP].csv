@@ -1,0 +1,14 @@
+sep=;
+"Name:";"LQ2 NAS HL LED HIGH (STD Assy-LED) RH#1 COLOR 2025-07-02"
+"Number:";""
+"Report:";"Lee Bong Gyu"
+"Test no.:";""
+"Lamp type:";"LED"
+"Lamp no.:";"PRODUCT"
+"Lamp flux:";"0 lm";"Operator:";"SL CORP.(LAB #3 LMT GO-H1660)"
+"Voltage:";"12.8138 V";"Date:";"2025-07-03 ¿ÀÀü 12:47:57"
+"Current:";"0.00005 A";"File:";"LQ2 NAS HL LED HIGH (STD Assy-LED) RH#1 COLOR 2025-07-02"
+
+"No.";"Functions";"H[¡Æ]";"V[¡Æ]";"x";"y";"Tc";"N.O.K.";"IMin [cd]";"Hmin [¡Æ]";"Vmin [¡Æ]";"IMax [cd]";"Hmax [¡Æ]";"Vmax [¡Æ]"
+"1";"H - V";"0";"0";"0.3307";"0.3458";"5578";"OK";"76488.6";"";"";"76488.6";"";""
+"2";"1.5D - V";"0";"-1.5";"0.3241";"0.3379";"5886";"OK";"21908.2";"";"";"21908.2";"";""

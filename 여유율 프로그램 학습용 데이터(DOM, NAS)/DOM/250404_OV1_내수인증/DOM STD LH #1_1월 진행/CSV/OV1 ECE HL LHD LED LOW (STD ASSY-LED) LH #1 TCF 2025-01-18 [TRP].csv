@@ -1,0 +1,14 @@
+sep=;
+"Name:";"OV1 ECE HL LHD LED LOW (STD ASSY-LED) LH #1 TCF 2025-01-18"
+"Number:";""
+"Report:";"Kim Jin Mo"
+"Test no.:";""
+"Lamp type:";"LED"
+"Lamp no.:";"PRODUCT"
+"Lamp flux:";"0 lm";"Operator:";"SL CORP.(LAB #3 LMT GO-H1660)"
+"Voltage:";"13.2160 V";"Date:";"2025-01-18 ¿ÀÀü 8:32:22"
+"Current:";"1.40408 A";"File:";"OV1 ECE HL LHD LED LOW (STD ASSY-LED) LH #1 TCF 2025-01-18"
+
+"Functions";"Min";"Max";"I [cd]";"H[¡Æ]";"V[¡Æ]";"N.O.K.";"IMin [cd]";"Hmin [¡Æ]";"Vmin [¡Æ]";"IMax [cd]";"Hmax [¡Æ]";"Vmax [¡Æ]"
+"0.57U-3.43R";"-";"880";"268.2141";"3.43";"0.57";"OK";"268.2141";"3.43";"0.57";"268.2141";"3.43";"0.57"
+"0.86D-1.72L";"2500";"-";"5833.1330";"-1.72";"-0.86";"OK";"5833.1330";"-1.72";"-0.86";"5833.1330";"-1.72";"-0.86"

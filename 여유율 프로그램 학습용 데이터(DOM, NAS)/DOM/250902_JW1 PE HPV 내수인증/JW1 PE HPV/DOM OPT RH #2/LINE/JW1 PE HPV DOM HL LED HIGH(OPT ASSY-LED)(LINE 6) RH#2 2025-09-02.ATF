@@ -1,0 +1,161 @@
+Version= LMT LIMES 2000 ASCII File Version Limes 25.0619.1318
+
+[BeginSample]
+Photometry= BBeta
+TestName= JW1 PE HPV DOM HL LED HIGH(OPT ASSY-LED)(LINE 6) RH#2 2025-09-02
+TestReport= JO WON JIN
+TestDate= 2025-09-03 오전 4:11:28 
+TestOperator= SL Corp.(LMT #01 GO H-1300)
+Nlamps= 1
+NBulbs= 1
+LampActive= 1
+TestHeadnr= 1
+Testfactor= 1
+TestDistance= 25 m
+TestUnit= cd
+UseHVBurn= 1
+HBurn= 0 °
+VBurn= 0 °
+CilFactor= 0
+CCTz=  100  mm
+OptionGraphic= LMT Blue-gray
+OptionGrid= LMT Short
+[EndSample]
+
+[BeginLamp]
+LampName= LED
+LampRefID= 901083692
+LampDc= DC
+LampNLamps= 1
+LampNumber1= PRODUCT
+LampLampName1= LED
+LampVoltage1= 13.2132 V
+LampSetCurrent1= 10 A
+LampSetVoltage1= 13.2 V
+LampCorrectFlux1= OFF
+LampLifeTime1= 360000 h
+LampBurninPeriod1= 7230 s
+LampTemperature1= 25 %C
+LampBurninTolerance1= 3 %
+LampBurninTolTime1= 960 s
+LampCorrectFlux2= OFF
+LampLifeTime2= 360000 h
+LampBurninPeriod2= 7230 s
+LampTemperature2= 25 %C
+LampBurninTolerance2= 3 %
+LampBurninTolTime2= 960 s
+[EndLamp]
+
+[BeginProgram]
+ProgramName= ADB DOM Driving Beam LHD LINE6
+ProgramRefID= 614368005
+ProgramDescription= ADB DOM Driving Beam LHD LINE6
+ProgramDate= 2025-09-02 오후 9:57:26 
+ProgramVersion= KATRI Regulation No.21-2
+ProgramLibName= KATRI
+ProgramGroupName= Headlamp
+ProgramLicenseWidth= 520
+ProgramLicenseHeight= 120
+ProgramCGamma= 0
+DefHead= 1
+ProgramExecutionTime= 8281
+ProgramNAverage= 1
+ProgramNLamps= 1
+ProgramNMeas= 1
+ProgramCd= 1
+ProgramDoStore= Store
+ProgramNok= NOK
+ProgramPhisoll1= 1250 lm
+ProgramHpc= 1
+ProgramNlines= 1
+
+{BeginProgramLine  1 }
+PCode= ScanH
+POrderNo= 1
+POrderNoPrinting= 1
+PName= LINE 6
+PText= LINE 6
+PMin= -
+PMax= 16000
+PMaxValue= 16000 Maximum
+PX1= -0.45 °
+PX2= 0.45 °
+PX3= 0.1 °
+PY1= 0.1 °
+PY2= 0.1 °
+PY3= 1 °
+PSave= 1
+PUnit= 1
+PReaimRadius= 0.25
+PSpeed= 5
+PRotSpeed= 7
+OrderNo= 1 cd
+HValue= -0.45 °
+VValue= 0.1 °
+Value= 279.9328 cd
+HminValue= -0.45 °
+VminValue= 0.1 °
+MinValue= 279.9328 cd
+{EndProgramLine}
+
+ProgramGrid= LMT Short
+ProgramExcludeStreetLightInfo= Exclude
+ProgramExcludeBUGRatings= Exclude
+[EndProgram]
+
+[BeginDistribution]
+Distribution=  1 
+
+{BeginResults  1 }
+Text= LINE 6
+Line= LINE 6
+N= 1
+Hoffset= 0
+Voffset= 0
+FromX= -0.45
+ToX= 0.45
+ByX= 0.1
+FromY= 0.1
+ToY= 0.1
+ByY= 1
+Unit= 1
+Z1= 10
+Z2= 1
+
+{BeginAngles}
+H= 
+-0.45
+-0.35
+-0.25
+-0.15
+-0.05
+0.05
+0.15
+0.25
+0.35
+0.45
+V= 
+0.1
+{EndAngles}
+
+{BeginValuesInCd}
+279.9328
+279.9328
+279.9328
+279.9328
+279.9328
+279.9328
+279.9328
+279.9328
+279.9328
+279.9328
+{EndValuesInCd}
+{EndResults}
+[EndDistribution]
+
+
+[BeginCutoff]
+CutoffDone= OFF
+[EndCutoff]
+
+[EndOfFile]

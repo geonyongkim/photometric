@@ -1,0 +1,197 @@
+Version= LMT LIMES 2000 ASCII File Version Limes 25.0619.1318
+
+[BeginSample]
+Photometry= BBeta
+TestName= JW1 PE HPV DOM HL LED HIGH(OPT ASSY-LED)(LINE 1) RH#1 2025-09-01
+TestReport= JO WON JIN
+TestDate= 2025-09-01 오후 11:36:33 
+TestOperator= SL Corp.(LMT #01 GO H-1300)
+Nlamps= 1
+NBulbs= 1
+LampActive= 1
+TestHeadnr= 1
+Testfactor= 1
+TestDistance= 25 m
+TestUnit= cd
+CilFactor= 0
+CCTz=  100  mm
+OptionGraphic= LMT Blue-gray
+OptionGrid= LMT Short
+[EndSample]
+
+[BeginLamp]
+LampName= LED
+LampRefID= 900943056
+LampDc= DC
+LampNLamps= 1
+LampNumber1= PRODUCT
+LampLampName1= LED
+LampVoltage1= 13.2131 V
+LampSetCurrent1= 15 A
+LampSetVoltage1= 13.2 V
+LampCorrectFlux1= OFF
+LampLifeTime1= 360000 h
+LampBurnTime1= 63 s
+LampBurninPeriod1= 7230 s
+LampTemperature1= 25 %C
+LampBurninTolerance1= 3 %
+LampBurninTolTime1= 960 s
+LampCorrectFlux2= OFF
+LampLifeTime2= 360000 h
+LampBurninPeriod2= 7230 s
+LampTemperature2= 25 %C
+LampBurninTolerance2= 3 %
+LampBurninTolTime2= 960 s
+[EndLamp]
+
+[BeginProgram]
+ProgramName= ADB DOM Driving Beam LHD LINE1
+ProgramRefID= 614367884
+ProgramDescription= ADB DOM Driving Beam LHD LINE1
+ProgramDate= 2025-09-01 오후 9:33:41 
+ProgramVersion= KATRI Regulation No.21-2
+ProgramLibName= KATRI
+ProgramGroupName= Headlamp
+ProgramLicenseWidth= 520
+ProgramLicenseHeight= 120
+ProgramCGamma= 0
+DefHead= 1
+ProgramExecutionTime= 8390
+ProgramNAverage= 1
+ProgramNLamps= 1
+ProgramNMeas= 1
+ProgramCd= 1
+ProgramDoStore= Store
+ProgramNok= NOK
+ProgramPhisoll1= 1250 lm
+ProgramHpc= 1
+ProgramNlines= 1
+
+{BeginProgramLine  1 }
+PCode= ScanH
+POrderNo= 1
+POrderNoPrinting= 1
+PName= LINE 1
+PText= LINE 1
+PMin= -
+PMax= 625
+PMaxValue= 625 Maximum
+PX1= -4.8 °
+PX2= -2 °
+PX3= 0.1 °
+PY1= 0.57 °
+PY2= 0.57 °
+PY3= 1 °
+PSave= 1
+PUnit= 1
+PReaimRadius= 0.25
+PSpeed= 5
+PRotSpeed= 7
+OrderNo= 1 cd
+HValue= -2 °
+VValue= 0.57 °
+Value= 329.9208 cd
+HminValue= -4.8 °
+VminValue= 0.57 °
+MinValue= 154.5629 cd
+{EndProgramLine}
+
+ProgramGrid= LMT Short
+ProgramExcludeStreetLightInfo= Exclude
+ProgramExcludeBUGRatings= Exclude
+[EndProgram]
+
+[BeginDistribution]
+Distribution=  1 
+
+{BeginResults  1 }
+Text= LINE 1
+Line= LINE 1
+N= 1
+Hoffset= 0
+Voffset= 0
+FromX= -4.8
+ToX= -2
+ByX= 0.1
+FromY= 0.57
+ToY= 0.57
+ByY= 1
+Unit= 1
+Z1= 29
+Z2= 1
+
+{BeginAngles}
+H= 
+-4.8
+-4.7
+-4.6
+-4.5
+-4.4
+-4.3
+-4.2
+-4.1
+-4
+-3.9
+-3.8
+-3.7
+-3.6
+-3.5
+-3.4
+-3.3
+-3.2
+-3.1
+-3
+-2.9
+-2.8
+-2.7
+-2.6
+-2.5
+-2.4
+-2.3
+-2.2
+-2.1
+-2
+V= 
+0.57
+{EndAngles}
+
+{BeginValuesInCd}
+154.5629
+157.1623
+159.9616
+163.4608
+167.2598
+170.859
+174.7581
+179.157
+183.356
+188.2548
+193.5535
+198.9522
+204.251
+209.8496
+214.9484
+220.2471
+225.4459
+231.2445
+237.543
+244.8412
+252.606
+261.1373
+270.1352
+280.1328
+290.4303
+301.6276
+312.225
+321.7227
+329.9208
+{EndValuesInCd}
+{EndResults}
+[EndDistribution]
+
+
+[BeginCutoff]
+CutoffDone= OFF
+[EndCutoff]
+
+[EndOfFile]

@@ -1,0 +1,9 @@
+sep=;
+"Vertical Cuts";"H-Loc";"max Gradient";"V-Loc";"V-Dev";"Sec. Max"
+"2R (Default scan)";"2.00¡Æ";"0.271";"0.14¡Æ";"0.00¡Æ";"0.00"
+"1R";"1.00¡Æ";"0.326";"0.05¡Æ";"-0.09¡Æ";"0.00"
+"3R";"3.00¡Æ";"0.240";"0.25¡Æ";"0.11¡Æ";"0.00"
+"";" "
+"Sharpness at 2R";"Min: 0.13";"0.271";"0.271";"0.271";"0.271"
+"Linearity (max dev to default scan pos)";"Max: 0.20¡Æ";"0.11¡Æ"
+"Set vertical offset";"Set vertical offset at V= -1.86¡Æ (Cutoff is at default scan)"

@@ -1,0 +1,15 @@
+sep=;
+"Name:";"CT1 NAS HL LED LOW (OPT ASSY-LED) RH#1 COLOR 2025-08-04"
+"Number:";""
+"Report:";"Kim Jin Mo"
+"Test no.:";""
+"Lamp type:";"LED"
+"Lamp no.:";"PRODUCT"
+"Lamp flux:";"0 lm";"Operator:";"SL Corp.(GO-H1400 Lab 5) "
+"Voltage:";"12.8050 V";"Date:";"2025-08-04 ¿ÀÈÄ 11:55:13"
+"Current:";"0.00071 A";"File:";"CT1 NAS HL LED LOW (OPT ASSY-LED) RH#1 COLOR 2025-08-04"
+
+"Functions";"H[¡Æ]";"V[¡Æ]";"x";"y";"Tc";"N.O.K.";"IMin [cd]";"Hmin [¡Æ]";"Vmin [¡Æ]";"IMax [cd]";"Hmax [¡Æ]";"Vmax [¡Æ]"
+"1.5D - 2R";"2";"-1.5";"0.3270";"0.3436";"5740";"OK";"19089.7";"";"";"19089.7";"";""
+"2D - 15L";"-15";"-2";"0.3273";"0.3452";"5725";"OK";"5583.8";"";"";"5583.8";"";""
+"2D - 15R";"15";"-2";"0.3288";"0.3495";"5655";"OK";"6951.8";"";"";"6951.8";"";""

@@ -1,0 +1,13 @@
+sep=;
+"Name:";"JW1 PE HPV DOM HL LED HIGH(OPT ASSY-LED)(LINE 6) LH#2 2025-09-02"
+"Number:";""
+"Report:";"JO WON JIN"
+"Test no.:";""
+"Lamp type:";"LED"
+"Lamp no.:";"PRODUCT"
+"Lamp flux:";"0 lm";"Operator:";"SL Corp.(LMT #01 GO H-1300)"
+"Voltage:";"13.2129 V";"Date:";"2025-09-02 ¿ÀÈÄ 11:12:53"
+"Current:";"0.00000 A";"File:";"JW1 PE HPV DOM HL LED HIGH(OPT ASSY-LED)(LINE 6) LH#2 2025-09-02"
+
+"Functions";"Min";"Max";"I [cd]";"H[¡Æ]";"V[¡Æ]";"N.O.K.";"IMin [cd]";"Hmin [¡Æ]";"Vmin [¡Æ]";"IMax [cd]";"Hmax [¡Æ]";"Vmax [¡Æ]"
+"LINE 6";"-";"16000";"(311.9251) 317.9237";"(0.35) -0.45";"0.1";"OK";"311.9251";"0.35";"0.1";"317.9237";"-0.45";"0.1"

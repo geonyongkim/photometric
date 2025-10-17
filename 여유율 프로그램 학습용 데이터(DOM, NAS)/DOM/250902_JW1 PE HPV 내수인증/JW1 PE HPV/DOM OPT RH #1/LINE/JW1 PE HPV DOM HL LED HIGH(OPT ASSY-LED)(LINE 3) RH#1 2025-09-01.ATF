@@ -1,0 +1,155 @@
+Version= LMT LIMES 2000 ASCII File Version Limes 25.0619.1318
+
+[BeginSample]
+Photometry= BBeta
+TestName= JW1 PE HPV DOM HL LED HIGH(OPT ASSY-LED)(LINE 3) RH#1 2025-09-01
+TestReport= JO WON JIN
+TestDate= 2025-09-01 오후 11:34:09 
+TestOperator= SL Corp.(LMT #01 GO H-1300)
+Nlamps= 1
+NBulbs= 1
+LampActive= 1
+TestHeadnr= 1
+Testfactor= 1
+TestDistance= 25 m
+TestUnit= cd
+CilFactor= 0
+CCTz=  100  mm
+OptionGraphic= LMT Blue-gray
+OptionGrid= LMT Short
+[EndSample]
+
+[BeginLamp]
+LampName= LED
+LampRefID= 900943056
+LampDc= DC
+LampNLamps= 1
+LampNumber1= PRODUCT
+LampLampName1= LED
+LampVoltage1= 13.2132 V
+LampSetCurrent1= 15 A
+LampSetVoltage1= 13.2 V
+LampCorrectFlux1= OFF
+LampLifeTime1= 360000 h
+LampBurnTime1= 63 s
+LampBurninPeriod1= 7230 s
+LampTemperature1= 25 %C
+LampBurninTolerance1= 3 %
+LampBurninTolTime1= 960 s
+LampCorrectFlux2= OFF
+LampLifeTime2= 360000 h
+LampBurninPeriod2= 7230 s
+LampTemperature2= 25 %C
+LampBurninTolerance2= 3 %
+LampBurninTolTime2= 960 s
+[EndLamp]
+
+[BeginProgram]
+ProgramName= ADB DOM Driving Beam LHD LINE3
+ProgramRefID= 614367937
+ProgramDescription= ADB DOM Driving Beam LHD LINE3
+ProgramDate= 2025-09-01 오후 9:34:31 
+ProgramVersion= KATRI Regulation No.21-2
+ProgramLibName= KATRI
+ProgramGroupName= Headlamp
+ProgramLicenseWidth= 520
+ProgramLicenseHeight= 120
+ProgramCGamma= 0
+DefHead= 1
+ProgramExecutionTime= 8187
+ProgramNAverage= 1
+ProgramNLamps= 1
+ProgramNMeas= 1
+ProgramCd= 1
+ProgramDoStore= Store
+ProgramNok= NOK
+ProgramPhisoll1= 1250 lm
+ProgramHpc= 1
+ProgramNlines= 1
+
+{BeginProgramLine  1 }
+PCode= ScanH
+POrderNo= 1
+POrderNoPrinting= 1
+PName= LINE 3
+PText= LINE 3
+PMin= -
+PMax= 5450
+PMaxValue= 5450 Maximum
+PX1= -1.2 °
+PX2= -0.5 °
+PX3= 0.1 °
+PY1= 0.15 °
+PY2= 0.15 °
+PY3= 1 °
+PSave= 1
+PUnit= 1
+PReaimRadius= 0.25
+PSpeed= 5
+PRotSpeed= 7
+OrderNo= 1 cd
+HValue= -1.2 °
+VValue= 0.15 °
+Value= 811.8051 cd
+HminValue= -0.7 °
+VminValue= 0.15 °
+MinValue= 352.582 cd
+{EndProgramLine}
+
+ProgramGrid= LMT Short
+ProgramExcludeStreetLightInfo= Exclude
+ProgramExcludeBUGRatings= Exclude
+[EndProgram]
+
+[BeginDistribution]
+Distribution=  1 
+
+{BeginResults  1 }
+Text= LINE 3
+Line= LINE 3
+N= 1
+Hoffset= 0
+Voffset= 0
+FromX= -1.2
+ToX= -0.5
+ByX= 0.1
+FromY= 0.15
+ToY= 0.15
+ByY= 1
+Unit= 1
+Z1= 8
+Z2= 1
+
+{BeginAngles}
+H= 
+-1.2
+-1.1
+-1
+-0.9
+-0.8
+-0.7
+-0.6
+-0.5
+V= 
+0.15
+{EndAngles}
+
+{BeginValuesInCd}
+811.8051
+589.8584
+456.5571
+397.9045
+365.9122
+352.582
+353.1152
+357.1143
+{EndValuesInCd}
+{EndResults}
+[EndDistribution]
+
+
+[BeginCutoff]
+CutoffDone= OFF
+[EndCutoff]
+
+[EndOfFile]

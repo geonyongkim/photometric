@@ -1,0 +1,14 @@
+sep=;
+"Name:";"CT1 NAS HL LED HIGH (STD ASSY-LED) RH#1 COLOR 2025-08-04"
+"Number:";""
+"Report:";"Kim Jin Mo"
+"Test no.:";""
+"Lamp type:";"LED"
+"Lamp no.:";"PRODUCT"
+"Lamp flux:";"0 lm";"Operator:";"SL Corp.(GO-H1400 Lab 5) "
+"Voltage:";"12.8050 V";"Date:";"2025-08-04 ¿ÀÈÄ 7:43:05"
+"Current:";"0.00071 A";"File:";"CT1 NAS HL LED HIGH (STD ASSY-LED) RH#1 COLOR 2025-08-04"
+
+"Functions";"H[¡Æ]";"V[¡Æ]";"x";"y";"Tc";"N.O.K.";"IMin [cd]";"Hmin [¡Æ]";"Vmin [¡Æ]";"IMax [cd]";"Hmax [¡Æ]";"Vmax [¡Æ]"
+"H - V";"0";"0";"0.3167";"0.3193";"6351";"OK";"63235.9";"";"";"63235.9";"";""
+"1.5D - V";"0";"-1.5";"0.3235";"0.3291";"5937";"OK";"30034.2";"";"";"30034.2";"";""

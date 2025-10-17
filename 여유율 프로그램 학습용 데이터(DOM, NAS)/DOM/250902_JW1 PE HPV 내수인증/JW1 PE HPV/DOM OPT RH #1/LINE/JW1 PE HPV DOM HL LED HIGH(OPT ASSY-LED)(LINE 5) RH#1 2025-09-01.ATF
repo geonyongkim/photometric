@@ -1,0 +1,234 @@
+Version= LMT LIMES 2000 ASCII File Version Limes 25.0619.1318
+
+[BeginSample]
+Photometry= BBeta
+TestName= JW1 PE HPV DOM HL LED HIGH(OPT ASSY-LED)(LINE 5) RH#1 2025-09-01
+TestReport= JO WON JIN
+TestDate= 2025-09-01 오후 11:37:44 
+TestOperator= SL Corp.(LMT #01 GO H-1300)
+Nlamps= 1
+NBulbs= 1
+LampActive= 1
+TestHeadnr= 1
+Testfactor= 1
+TestDistance= 25 m
+TestUnit= cd
+CilFactor= 0
+CCTz=  100  mm
+OptionGraphic= LMT Blue-gray
+OptionGrid= LMT Short
+[EndSample]
+
+[BeginLamp]
+LampName= LED
+LampRefID= 900943056
+LampDc= DC
+LampNLamps= 1
+LampNumber1= PRODUCT
+LampLampName1= LED
+LampVoltage1= 13.2132 V
+LampSetCurrent1= 15 A
+LampSetVoltage1= 13.2 V
+LampCorrectFlux1= OFF
+LampLifeTime1= 360000 h
+LampBurnTime1= 63 s
+LampBurninPeriod1= 7230 s
+LampTemperature1= 25 %C
+LampBurninTolerance1= 3 %
+LampBurninTolTime1= 960 s
+LampCorrectFlux2= OFF
+LampLifeTime2= 360000 h
+LampBurninPeriod2= 7230 s
+LampTemperature2= 25 %C
+LampBurninTolerance2= 3 %
+LampBurninTolTime2= 960 s
+[EndLamp]
+
+[BeginProgram]
+ProgramName= ADB DOM Driving Beam LHD LINE5
+ProgramRefID= 614367985
+ProgramDescription= ADB DOM Driving Beam LHD LINE5
+ProgramDate= 2025-09-01 오후 9:35:31 
+ProgramVersion= KATRI Regulation No.21-2
+ProgramLibName= KATRI
+ProgramGroupName= Headlamp
+ProgramLicenseWidth= 520
+ProgramLicenseHeight= 120
+ProgramCGamma= 0
+DefHead= 1
+ProgramExecutionTime= 16672
+ProgramNAverage= 1
+ProgramNLamps= 1
+ProgramNMeas= 2
+ProgramCd= 1
+ProgramDoStore= Store
+ProgramNok= NOK
+ProgramPhisoll1= 1250 lm
+ProgramHpc= 1
+ProgramNlines= 2
+
+{BeginProgramLine  1 }
+PCode= ScanH
+POrderNo= 1
+POrderNoPrinting= 1
+PName= LINE 5_L
+PText= LINE 5_L
+PMin= -
+PMax= 5300
+PMaxValue= 5300 Maximum
+PX1= -0.9 °
+PX2= 0.5 °
+PX3= 0.1 °
+PY1= 0.15 °
+PY2= 0.15 °
+PY3= 1 °
+PSave= 1
+PUnit= 1
+PReaimRadius= 0.25
+PSpeed= 5
+PRotSpeed= 7
+OrderNo= 1 cd
+HValue= -0.9 °
+VValue= 0.15 °
+Value= 342.2512 cd
+HminValue= -0.5 °
+VminValue= 0.15 °
+MinValue= 269.9352 cd
+{EndProgramLine}
+
+{BeginProgramLine  2 }
+PCode= ScanH
+POrderNo= 2
+POrderNoPrinting= 2
+PName= LINE 5_R
+PText= LINE 5_R
+PMin= -
+PMax= 7000
+PMaxValue= 7000 Maximum
+PX1= 0.5 °
+PX2= 0.9 °
+PX3= 0.1 °
+PY1= 0.15 °
+PY2= 0.15 °
+PY3= 1 °
+PSave= 2
+PUnit= 1
+PReaimRadius= 0.25
+PSpeed= 5
+PRotSpeed= 7
+OrderNo= 2 cd
+HValue= 0.9 °
+VValue= 0.15 °
+Value= 283.532 cd
+HminValue= 0.5 °
+VminValue= 0.15 °
+MinValue= 277.2935 cd
+{EndProgramLine}
+
+ProgramGrid= LMT Short
+ProgramExcludeStreetLightInfo= Exclude
+ProgramExcludeBUGRatings= Exclude
+[EndProgram]
+
+[BeginDistribution]
+Distribution=  2 
+
+{BeginResults  1 }
+Text= LINE 5_L
+Line= LINE 5_L
+N= 1
+Hoffset= 0
+Voffset= 0
+FromX= -0.9
+ToX= 0.5
+ByX= 0.1
+FromY= 0.15
+ToY= 0.15
+ByY= 1
+Unit= 1
+Z1= 15
+Z2= 1
+
+{BeginAngles}
+H= 
+-0.9
+-0.8
+-0.7
+-0.6
+-0.5
+-0.4
+-0.3
+-0.2
+-0.1
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+V= 
+0.15
+{EndAngles}
+
+{BeginValuesInCd}
+342.2512
+305.5933
+277.9333
+271.2682
+269.9352
+269.9352
+269.9352
+269.9352
+269.9352
+269.9352
+269.9352
+279.9328
+279.9328
+279.9328
+279.9328
+{EndValuesInCd}
+{EndResults}
+
+{BeginResults  2 }
+Text= LINE 5_R
+Line= LINE 5_R
+N= 2
+Hoffset= 0
+Voffset= 0
+FromX= 0.5
+ToX= 0.9
+ByX= 0.1
+FromY= 0.15
+ToY= 0.15
+ByY= 1
+Unit= 1
+Z1= 5
+Z2= 1
+
+{BeginAngles}
+H= 
+0.5
+0.6
+0.7
+0.8
+0.9
+V= 
+0.15
+{EndAngles}
+
+{BeginValuesInCd}
+277.2935
+278.4932
+279.6929
+281.5324
+283.532
+{EndValuesInCd}
+{EndResults}
+[EndDistribution]
+
+
+[BeginCutoff]
+CutoffDone= OFF
+[EndCutoff]
+
+[EndOfFile]
